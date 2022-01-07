@@ -1,0 +1,21 @@
+function output=tryOutput(x)
+format rat %write 1st Constraint % all constraints are of <= sign
+x1=x(:,1)
+x2=x(:,2)
+cons1=round((2.*x)+(3.*x2)-9)
+s1=find(cons1>0)
+x(s1,:)=[]
+%write 2nd Constraint % all constraints are of <= sign
+x1=x(:,1);
+x2=x(:,2);
+cons2=round((x1-8.*x2)-11)
+s2=find(cons2>0)
+x(s2,:)=[]
+%write 3rd Constraint % all constraints are of <= sign
+x1=x(:,1)
+x2=x(:,2)
+cons3=round(((5.*x1)+(7.*x2))-18)
+s3=find(cons3>0)
+x(s3,:)=[]
+output=x
+end
