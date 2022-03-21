@@ -1,5 +1,8 @@
 <h1> OPTIMIZATION TECHNIQUES </h1>
 
+
+[Click here to view all notes and pdfs related to this particular course](https://drive.google.com/drive/folders/16pN1y32wWbmC6136scHAc7nbxlB5ye34?usp=sharing)
+
 The main objective of the course is to formulate mathematical models
 and to understand solution methods for real life optimal decision problems. 
 The emphasis
